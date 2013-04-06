@@ -1,0 +1,284 @@
+
+
+
+@font-face {
+  font-family: CrimsonSemibold;
+  src: 
+    url("fonts/Crimson_Semibold/Crimson-Semibold.ttf") format("truetype");
+
+  }
+
+
+h1, h2, h3, h4, h5 {
+font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 57.1px;
+	line-height: 1.0em;
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	letter-spacing: -1.9px;
+	color: #232323;
+
+
+
+}
+
+h2 {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 50px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+}
+
+
+/*START Navigation*/
+
+.nav {
+
+text-align: right;
+padding: 10px;
+margin: -30px 0 20px 0;
+margin-right: 30px;
+}
+
+
+div.nav ul li {
+list-style-type: none;
+display: inline;
+margin: 0;
+padding: 0 10px 0;
+font-size: 12px;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+div.nav ul li#day {
+float: left;
+padding-top: 4px;
+
+}
+
+a{
+	position:relative;
+	color: #6389b0;
+	text-decoration: none;
+	top:20px;
+}
+
+#today{
+	color: #b3b3b3;
+	text-decoration: none;
+}
+
+
+/*END navigation*/
+
+
+#logo{
+    position:relative;
+    top:12px;
+	left:41%;
+
+}
+
+
+#main-body-container{
+	width:900px;
+	margin: 0 auto 30px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding:5px;
+}
+
+.section{
+	position:relative;
+	background-color:white;
+	margin:0px;
+	top:-10px;
+
+
+}
+
+#section2{
+	position:relative;
+	background-color:white;
+	margin:0px;
+	top:-80px;
+
+
+}
+
+
+
+
+.title-text {
+	position:relative;
+	top:-10px;
+	margin:22px;
+	font-size:27px;
+	font-family: "CrimsonSemibold", Times New Roman, Georgia, serif;
+	text-align: center;
+    color: #222;
+}
+
+
+/*START Applications: basecamp/highrise/campfire*/
+#applications-container{
+
+	position:relative;
+	top:-30px;
+    left:10px;
+    overflow:hidden; 
+    padding:-10px; 
+
+
+
+
+
+}
+
+.application{
+	position:relative;
+	border-radius:3%;
+	top:-20px;
+	left:80px;
+    background-color:white;
+    width:180px; 
+    height:245px; 
+    border:.5px solid grey; 
+    margin:20px;
+    float:left;
+    background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, white), color-stop(0%, white), color-stop(80%, #f0f0f0)); 
+    background: -moz-linear-gradient(top, white 0%, white 55%, #f0f0f0 130%); 
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+}
+
+
+
+
+.product-logo{
+    position:relative;
+    top:23px;
+}
+
+
+#stars-image{
+ position:relative;
+ padding-bottom:40px;
+ left:-10px;
+}
+
+
+a.app-box {
+width:9999px;
+}
+
+
+
+/*END Applications: basecamp/highrise/campfire*/
+
+
+
+#tagline {
+	position:relative;
+	top:-20px;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 19.5px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	color: #232323;
+}
+
+.app-name{
+	text-decoration:underline;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size:21px;
+	font-weight:bold;
+	color: #346799;
+
+}
+
+.app-red-text{
+	position:relative;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	top:-10px;
+	font-size:14px;
+	font-weight:bold;
+	color: #cc0000;;
+
+}
+
+.app-description{
+	position:relative;
+	margin-left:10px;
+	margin-right:10px;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	top:-12px;
+	font-size:13.5px;
+	color:#2e2e2e;
+	text-align: center;
+}
+
+
+
+
+
+#happy-people-container{
+
+	position:relative;
+	top:-120px;
+	left:-495px;
+
+}
+
+#arrow-image{
+	position:relative;
+	left:190px;
+}
+
+#loyal-customers-container{
+	position:relative;
+	top:-200px;
+}
+
+.loyal-customers{
+	position:relative;
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+	top:-115px;
+	left:19px;
+	line-height: 1.3em;
+	text-align:left;
+	font-size:22px;
+	margin-right:200px;
+	text-align: left;
+    color: #666;
+}
+
+#world-badge{
+	position:relative;
+	top:120px;
+	left:340px;
+}
+
+#bw-logos{
+	position:relative;
+	top:-100px;
+}
+
+
+
+
+
+
+
